@@ -1,0 +1,236 @@
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-heavy.ttf) format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-heavyitalic.ttf) format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-black.ttf) format("truetype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-blacktalic.ttf) format("truetype");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-boldtalic.ttf) format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-semibold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-semibolditalic.ttf) format("truetype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-mediumitalic.ttf) format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-regularitalic.ttf) format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-light.ttf) format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-lightitalic.ttf) format("truetype");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-ultralight.ttf) format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-ultralightitalic.ttf) format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-thin.ttf) format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "Gilroy";
+    src: url(fonts/gilroy-thinitalic.ttf) format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+.body{
+    margin: 0;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.wrap{
+    width: 944px;
+    margin: 0 auto;
+}
+
+.text{
+    font-family: 'Gilroy', sans-serif;
+    font-size: 18px;
+}
+
+.text_m{
+    font-weight: 500;
+}
+
+.text_b{
+    font-weight: 700;
+}
+
+.title{
+    font-family: 'Gilroy';
+    font-size: 32px;
+}
+
+.title_b{
+    font-size: 47px;
+}
+
+/*======= about =========*/
+
+.about{
+    background: #F6F6F6;
+}
+
+.about__title{
+    margin: 0 0 37px 0;
+}
+
+
+.about__wrap{
+    padding: 120px 0 107px;
+    text-align: center;
+    
+}
+
+.about__text{
+    padding-bottom: 50px;
+    font-weight: 500;
+    color: #070707;
+}
+
+.about__text:nth-of-type(1){
+    width: 485px;
+    margin: 0 auto;
+}
+
+.about__text:nth-of-type(2){
+    width: 398px;
+    margin: 0 auto;
+}
+
+.about__text:nth-of-type(3){
+    width: 320px;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+
+/*======= skills =========*/
+
+.skills__wrap{
+    text-align: center;
+    padding: 91px 0 110px;
+}
+
+.skills__item{
+    list-style: none;
+}
+
+.skills__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__text{
+    color: #070707;
+    font-weight: 500;
+    margin: 69px 0 83px;
+}
+
+.skills__item{
+    width: 166px;
+}
+
+.skills__item-text{
+    font-weight: 700;
+    width: 70px;
+    font-size: 14px;
+    color: #828282;
+    margin: 19px auto 42px;
+}
+
+.skills__item-level{
+    display: flex;
+    justify-content: space-between;
+}
