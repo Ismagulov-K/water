@@ -57,9 +57,17 @@ body{
     line-height: 59px;
 }
 .designer__text{
+    
     font-size: 18px;
     font-weight: 500;
-    width: 155px;
+    width: 180px;
     margin: 94px 0 0 0;
     line-height: 22px;
+}
+.designer__text_ru{
+    transform: rotate(-90deg);
+    font-size: 16px;
+    color: #828282;
+    line-height: 19px;
+    font-weight: 600;
 }
