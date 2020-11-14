@@ -1,0 +1,37 @@
+
+.header{
+    height: 88px;
+}
+
+.header__wrap{
+    height: 100%;
+    border-bottom: 1px solid #828282;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding-top: 29.5px;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #828282;
+}
+
+.nav__item:first-child a{
+    color: #070707;
+}
+
+
+@media screen and (max-width: 376px){
+
+.header{
+    display: none;
+}
+
+}
