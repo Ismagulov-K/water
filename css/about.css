@@ -33,12 +33,13 @@
 
 .about__text:nth-of-type(3){
     width: 320px;
-    margin: 0px 316px;
+    margin: 0 auto;
     padding-bottom: 0;
 
 }
 
-@media screen and (max-width: 376px){
+
+@media screen and (max-width: 530px){
     .about__wrap{
         padding: 81px 0 76px;
         text-align: center;

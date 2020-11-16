@@ -32,7 +32,7 @@
     color: #828282;
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 530px){
     .contacts__icons{
         width: 100%;
     }

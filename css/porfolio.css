@@ -14,6 +14,7 @@
 
 .porfolio__img{
     margin-top: 105px;
+    width: 100%;
 }
 
 .porfolio__img-top{
@@ -26,7 +27,7 @@
     color: #070707;
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 530px){
 
     .portfolio__wrap{
         text-align: center;

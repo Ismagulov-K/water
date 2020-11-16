@@ -43,12 +43,38 @@
     display: none;
 }
 
+.burger{
+    display: none;
+}
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 1023px){
+    .profile__photo{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 530px){
+
+    .burger{
+        width: 33px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        z-index: 2;
+        margin-top: 10px;
+}
 
     .profile__wrap{
         padding: 65px 0 83px;
         box-sizing: border-box;
+    }
+
+    .profile__header{
+        display: flex;
+        justify-content: space-between;
     }
 
     .profile__lang{
@@ -75,5 +101,52 @@
         margin-top: 30px;
         line-height: 22px;
     }
+
+    
+    .burger__line{
+        width: 100%;
+        height: 4px;
+        background-color: #070707;
+
+}
+
+    .burger__line-top{
+        position: relative;
+        top: 0;
+        left: 0;
+        transition: top 0.4s 0.7s ease, transform 0.5s ease;
+    }
+
+    .burger__line-bot{
+        position: relative;
+        bottom: 0;
+        left: 0;
+        transition: bottom 0.4s 0.7s ease, transform 0.5s ease;
+    }
+
+
+    .burger__line-mid{
+        transition: opacity 0.5s 0.5s ease;
+}
+
+
+    .menu_active .burger__line-top{
+        transform: rotate(-45deg);
+        top: calc(50% - 2px);
+        left: 0;
+        transition: top 0.4s ease, transform 0.5s 0.7s ease;
+}
+
+    .menu_active .burger__line-mid{
+        opacity: 0;
+        transition: opacity 1s ease;
+}
+
+    .menu_active .burger__line-bot{
+        transform: rotate(45deg);
+        bottom: calc(50% - 2px);
+        left: 0;
+        transition: bottom 0.4s ease, transform 0.5s 0.7s ease;
+}
 
 }
